@@ -25,7 +25,7 @@ class exampleTest(unittest.TestCase):
 
     def testMinusFail(self):
 
-        self.assertEqual(self.exampleClass.Minus(4, 1), 3)
+        self.assertEqual(self.exampleClass.Minus(2, 1), 3)
 
 if __name__ == '__main__':
-    unittest.main(testRunner=xmlrunner.XMLTestRunner(output="./python_unittests_xml"))
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output="./Demo_xml"))
